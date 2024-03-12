@@ -1,0 +1,197 @@
+.background-content {
+  background-color: black;
+}
+
+.sidebar-container {
+    background-color: #121212;
+    border-radius: 8px;
+    width: 420px;
+    height: 120px;
+}
+
+.sidebar-home,
+.sidebar-search {
+  display: flex;
+  align-items: center;
+}
+
+.sidebar-home:hover {
+  filter: brightness(140%);
+  cursor: pointer;
+}
+
+.sidebar-search:hover {
+  filter: brightness(140%);
+  cursor: pointer;
+}
+
+.home-list,
+.search-list {
+  padding: 8px 1px;
+}
+
+.sidebar-list {
+  list-style: none;
+}
+
+.home-text {
+  color: rgb(150, 144, 144);
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 25px;
+  margin-top: 10px;
+}
+
+.search-text {
+  color: rgb(150, 144, 144);
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 25px;
+  margin-top: 10px;
+}
+
+.library-container {
+  background-color: #121212;
+  border-radius: 8px;
+  cursor: default;
+  width: 420px;
+  height: 502px;
+  margin-top: 15px;
+}
+
+.library-button {
+  background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+.library-title img {
+  margin-right: 15px;
+}
+
+
+.library-title {
+  display: inline-flex;
+  align-items: center;
+  color: rgb(150, 144, 144);
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+.library-button:hover {
+  filter: brightness(140%);
+}
+
+.create-button {
+  background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+.show-button {
+  background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+.create-lists {
+  margin-left: 150px;
+}
+
+.create-button:hover {
+  filter: brightness(140%);
+}
+
+.show-button:hover {
+  filter: brightness(140%);
+}
+
+.show-lists {
+  background: #313030;
+  color: inherit;
+  border-radius: 50px;
+  border: none;
+  margin-top: 15px;
+  margin-left: 15px;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  width: 59px;
+  height: 32px;
+}
+
+.show-lists:hover {
+  filter: brightness(140%);
+}
+
+.span-lists {
+  color: white;
+}
+
+.show-artists {
+  background: #313030;
+  color: inherit;
+  border-radius: 50px;
+  border: none;
+  margin-top: 15px;
+  margin-left: 3px;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  width: 59px;
+  height: 32px;
+}
+
+.show-artists:hover {
+  filter: brightness(140%);
+}
+
+.span-artists {
+  color: white;
+}
+
+.search-music {
+  display: flex;
+  align-items: center; /* Align children vertically */
+}
+
+.search-content {
+  display: flex;
+  align-items: center;
+}
+
+.search-button,
+.recent-music {
+  display: flex;
+  align-items: center;
+  background: none;
+  color: inherit;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit; 
+  color: white;
+}
+
+.recent-music {
+  margin-left: 270px;
+}
+
+.search-button:hover,
+.recent-music:hover {
+  filter: brightness(140%);
+}
