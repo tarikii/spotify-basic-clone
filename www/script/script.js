@@ -26,7 +26,7 @@ const containerSpotifyPlaylists = document.querySelectorAll(
 );
 
 // Función que se va a repetir
-const createButton = card => {
+const createButton = (card, audioSrc) => {
 	// Crear el botón
 	const button = document.createElement('button');
 	button.innerHTML = '<i class="fa-solid fa-play"></i>';
@@ -46,6 +46,12 @@ const createButton = card => {
 
 	card.addEventListener('mouseout', () => {
 		button.style.display = 'none';
+	});
+
+	// Agregar un evento de clic al botón para reproducir el archivo de audio
+	button.addEventListener('click', () => {
+		let bloodhail = document.getElementById("bloodhail");
+		bloodhail.play();
 	});
 };
 
